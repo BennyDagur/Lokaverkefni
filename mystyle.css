@@ -1,0 +1,45 @@
+﻿body {
+    background-color: darkgray;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 10px;
+    justify-content: center;
+}
+.hide {
+    display: none;
+}
+.pagehead {
+    position: sticky;
+    background-color: darkgray;
+    border: solid 2px;
+    border-color: black;
+    border-radius: 10px;
+    font-size: 16px;
+}
+.main {
+    background-color: darkgray;
+    border: solid 2px;
+    border-color: black;
+    border-radius: 10px;
+}
+.bluebox {
+    background-color: darkgray;
+    border: solid 2px;
+    border-color: black;
+    border-radius: 10px;
+}
+@media only screen and (min-width: 769px) {
+    body {
+        background-color: dimgray;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 10px;
+        justify-content: center;
+    }
+    .hide{
+        display: block;
+    }
+    footer {
+        font-size: 50px;
+    }
+}

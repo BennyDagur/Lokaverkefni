@@ -1,0 +1,339 @@
+﻿body {
+    background-color: black;
+    color: white;
+}
+.homeBody {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    min-height: 100vh;
+    max-height: fit-content;
+}
+.createBody {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    height: 90vh;
+}
+.createBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: 100vw;
+    height: 90vh;
+    border: solid gray 2px;
+}
+.createInput {
+    width: 92%;
+    margin-bottom: 40px;
+}
+.createForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 90vh;
+}
+.createButton {
+    background-color: deepskyblue;
+    color: white;
+    border: white solid 2px;
+    border-radius: 180px;
+    margin-bottom: 18px;
+    font-size: 28px;
+    width: 200px;
+    height: 72px;
+    margin-top: 18px;
+}
+.createButton:hover {
+    background-color: lightskyblue;
+    border: white solid 3px;
+}
+
+.createButton:active {
+    background-color: cornflowerblue;
+    border: white solid 4px;
+}
+
+.hide {
+    display: none;
+}
+
+.pageHead {
+    background-color: black;
+    border: solid gray;
+    border-width: 0px 2px 1px 2px;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profileHead {
+    background-color: black;
+    border: solid gray;
+    border-width: 0px 2px 1px 2px;
+    padding: 10px;
+    height: 300px;
+    width: 100%;
+}
+.profilePhoto {
+    border: gray solid 2px;
+    border-radius: 180px;
+    height: 75px;
+}
+.profilePhoto:hover {
+    border: gray solid 3px;
+}
+.profilePhoto:active {
+    border: gray solid 4px;
+}
+.deleteBtn {
+    background-color: red;
+    color: white;
+    font-size: 24px;
+    width: 140px;
+    height: 50px;
+    border: black solid 2px;
+    border-radius: 180px;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+}
+.deleteBtn:hover {
+    background-color: indianred;
+    border: black solid 3px;
+}
+
+.deleteBtn:active {
+    background-color: darkred;
+    border: black solid 4px;
+}
+.deletePost {
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    width: 120px;
+    height: 40px;
+    border: white solid 2px;
+    border-radius: 180px;
+}
+.deleteBtn:hover {
+    background-color: indianred;
+    border: white solid 3px;
+}
+
+.deleteBtn:active {
+    background-color: darkred;
+    border: white solid 4px;
+}
+.profileText {
+    font-size: 36px;
+}
+
+.homeMain {
+    background-color: black;
+    border: solid gray;
+    border-width: 1px 2px 0px 2px;
+    padding: 10px;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.trendBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border: solid 2px gray;
+    border-radius: 6px;
+    height: 400px;
+    width: 200px;
+    padding: 50px;
+    font-size: 24px;
+    position: sticky;
+    top: 80px;
+    gap: 50px;
+}
+.followBox {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    border: solid 2px gray;
+    border-radius: 6px;
+    height: 500px;
+    width: 200px;
+    padding: 50px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    position: sticky;
+    top: 80px;
+}
+.followPhoto {
+    display: flex;
+    align-items: center;
+    border: gray solid 2px;
+    border-radius: 180px;
+    height: 60px;
+    cursor: pointer;
+}
+.followPhoto:hover {
+    border: gray solid 3px;
+}
+.followPhoto:active {
+    border: gray solid 4px;
+}
+.followText {
+    cursor: pointer;
+}
+.postButton {
+    background-color: deepskyblue;
+    color: white;
+    font-size: 28px;
+    width: 64px;
+    height: 64px;
+    border: white solid 2px;
+    border-radius: 180px;
+    margin-top: 18px;
+    position: fixed;
+    right: 10px;
+    bottom: 20px;
+}
+.postButton:hover {
+    background-color: lightskyblue;
+    border: white solid 3px;
+}
+.postButton:active {
+    background-color: cornflowerblue;
+    border: white solid 4px;
+}
+
+.followButton {
+    background-color: deepskyblue;
+    color: white;
+    font-size: 24px;
+    width: 120px;
+    height: 48px;
+    border: white solid 2px;
+    border-radius: 180px;
+    margin-top: 18px;
+}
+.postButton:hover {
+    background-color: lightskyblue;
+    border: white solid 3px;
+}
+
+.postButton:active {
+    background-color: cornflowerblue;
+    border: white solid 4px;
+}
+.sideToSide {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.boxFont {
+    font-size: 28px;
+    text-align: center; 
+}
+.userPost {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+    padding: 8px;
+    border: solid gray;
+    border-width: 2px 2px 1px 2px;
+    border-radius: 8px 8px 0px 0px;
+    margin-top: 10px;
+}
+.postBox {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 28px;
+    color: white;
+    padding: 20px;
+    border: solid gray;
+    border-width: 1px 2px 2px 2px;
+    border-radius: 0px 0px 8px 8px;
+    margin-bottom: 20px;
+}
+.postImg {
+    border: solid gray;
+    border-width: 0px 0px 2px 0px;
+}
+.postText {
+    overflow-wrap: break-word;
+    border: solid gray;
+    border-width: 0px 0px 2px 0px;
+}
+@media only screen and (min-width: 426px) {
+    .postButton {
+        font-size: 36px;
+        width: 92px;
+        height: 92px;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    .homeBody {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 50px;
+    }
+
+    .homeMain {
+        width: 500px;
+    }
+
+    .createBox {
+        height: 500px;
+        width: 800px;
+    }
+
+    .createInput {
+        width: 50%;
+    }
+
+    .bigHide {
+        display: none;
+    }
+
+    .profileHead {
+        width: 500px;
+    }
+
+    li {
+        list-style-type: none;
+        margin-right: 32px;
+    }
+
+    .postButton {
+        font-size: 28px;
+        width: 200px;
+        height: 72px;
+        border-radius: 100px;
+        margin-top: 18px;
+        position: sticky;
+        top: 600px;
+    }
+
+    .hide {
+        display: block;
+    }
+
+    .homeFooter {
+        font-size: 24px;
+        position: sticky;
+        top: 480px;
+    }
+}
